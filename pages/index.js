@@ -123,7 +123,7 @@ export default function Home() {
                 transition={{ duration: 1, delay: 0.3 }}
               >
                 <h2 className="text-2xl font-bold text-purple-900 tracking-wide">
-                  HELLO | AI/ML ENGINEER | CREATIVE NLP ENTHUSIAST | VISIONARY LEARNER
+                  AI/ML ENGINEER | CREATIVE NLP ENTHUSIAST | VISIONARY LEARNER
                 </h2>
                 <p className="mt-5 text-justify text-purple-900 font-semibold text-lg leading-relaxed tracking-wide">
                   Passionate, visionary, and fiercely focused — I’m a Computer Science graduate with a strong
