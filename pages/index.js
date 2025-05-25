@@ -6,6 +6,7 @@ import {FaBrain, FaComments, FaBook, FaCogs, FaSearch, FaTools, FaCode, FaRobot,
 } from "react-icons/fa";
 import { HiOutlineBriefcase, HiOutlineBadgeCheck } from "react-icons/hi";
 import { BsJournalCode } from "react-icons/bs";
+import ChatBotToggle from "../components/ChatBotToggle";
 export default function Home() {
   const waveRef = useRef(null);
 
@@ -58,7 +59,7 @@ export default function Home() {
               </motion.h1>
 
               <motion.p
-                className="mt-3 text-xl tracking-wide font-light text-purple-700"
+                className="mt-3 text-xl tracking-wide font-semibold text-purple-700"
                 initial={{ opacity: 0, y: 25 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1.1, delay: 0.6 }}
@@ -73,7 +74,7 @@ export default function Home() {
               </motion.p>
 
               <motion.p
-                className="mt-3 text-xl tracking-wide font-light text-purple-700"
+                className="mt-3 text-xl tracking-wide font-semibold text-purple-700"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1, delay: 1.2 }}
@@ -600,6 +601,7 @@ export default function Home() {
     </div>
   </div>
 </section>
+<ChatBotToggle />
 <em><footer className="mt-16 text-center text-lg text-purple-900 border-t pt-4 flex flex-col sm:flex-row justify-center items-center gap-1 sm:gap-4">
   <span>&copy; {new Date().getFullYear()} P Shanmukhapriya Sravani. All rights reserved.</span>
   <span className="text-purple-900 text-lg">|</span>
@@ -608,6 +610,8 @@ export default function Home() {
 
 </motion.div>
 </AnimatePresence>
+
+
 </main>
 </>
 );
