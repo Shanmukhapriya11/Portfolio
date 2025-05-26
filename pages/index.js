@@ -323,21 +323,40 @@ export default function Home() {
   </div>
 </section>
 <section className="mt-16">
-<h2 className="text-3xl font-bold text-purple-900 mb-6 flex items-center gap-2"><HiOutlineBriefcase className="w-8 h-8" />Professional Experience</h2>
-    <div className="bg-gradient-to-br from-violet-300 to-white hover:from-violet-400 p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
-      <h3 className="text-xl font-semibold text-violet-900 mb-2">AI/ML Project Intern — NIT Raipur</h3>
-      <p className="text-violet-900 text-lg mb-1"><strong>Duration:</strong> May 2024 – June 2024</p>
-      <p className="text-violet-900 mb-2"><strong>Project:</strong> <em>SmartLoanChain</em> — a deep learning-based credit score recommender system integrated with blockchain technology.</p>
+  <h2 className="text-3xl font-bold text-purple-900 mb-6 flex items-center gap-2">
+    <HiOutlineBriefcase className="w-8 h-8" />
+    Professional Experience
+  </h2>
 
-      <ul className="list-disc list-inside text-violet-900 space-y-1 text-lg">
-        <li>Objective: Enhance transparency and efficiency in lending operations by eliminating reliance on traditional credit rating agencies.</li>
-        <li>Designed and implemented a <strong>Transformer model</strong> to analyze financial data and predict credit scores.</li>
-        <li>Achieved <strong>86.4% accuracy</strong> in credit score predictions after evaluation.</li>
-        <li><strong>Technologies Used:</strong> Deep Learning, Blockchain, Python, Transformer Model.</li>
-      </ul>
-    </div>
+  <div className="bg-gradient-to-br from-violet-300 to-white hover:from-violet-400 p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+    <h3 className="text-xl font-semibold text-violet-900 mb-2">
+      AI/ML Project Intern — NIT Raipur
+    </h3>
+    <p className="text-violet-900 text-lg mb-1">
+      <strong>Duration:</strong> May 2024 – June 2024
+    </p>
+    <p className="text-violet-900 mb-2">
+      <strong>Project:</strong> <em>SmartLoanChain</em> — a deep learning-based credit score recommender system integrated with blockchain technology.
+    </p>
 
+    <ul className="list-disc list-inside text-violet-900 space-y-1 text-lg mb-4">
+      <li>Objective: Enhance transparency and efficiency in lending operations by eliminating reliance on traditional credit rating agencies.</li>
+      <li>Designed and implemented a <strong>Transformer model</strong> to analyze financial data and predict credit scores.</li>
+      <li>Achieved <strong>86.4% accuracy</strong> in credit score predictions after evaluation.</li>
+      <li><strong>Technologies Used:</strong> Deep Learning, Blockchain, Python, Transformer Model.</li>
+    </ul>
+
+    {/* View on GitHub Link */}
+    <a 
+      href="https://github.com/yourusername/smartloanchain" 
+      target="_blank" 
+      className="text-purple-700 underline text-sm font-semibold hover:text-purple-900 transition-colors"
+    >
+      View on GitHub
+    </a>
+  </div>
 </section>
+
 <section className="mt-16">
   <h2 className="text-3xl font-bold text-purple-900 mb-6 flex items-center gap-2"><BsJournalCode className="w-8 h-8" />Academic Projects</h2>
 
