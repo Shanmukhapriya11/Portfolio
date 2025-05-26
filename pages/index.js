@@ -29,14 +29,12 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>P Shanmukhapriya Sravani – AI/ML Engineer Portfolio</title>
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-        <meta
-          name="viewport"
+  <title>P Shanmukhapriya Sravani – AI/ML Engineer Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of P Shanmukhapriya Sravani – AI/ML Engineer, NLP Enthusiast, and problem solver. Discover projects, skills, and more." />
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</Head>
 
-          content="width=device-width, initial-scale=1.0 , maximum-scale=1.0"
-        />
-      </Head>
 
       <main className="bg-gradient-to-b from-purple-100 via-white to-purple-200 text-purple-900 px-4 sm:px-6 py-10 font-sans min-h-screen flex flex-col items-center mb-16 sm:mb-16 w-full">
 
