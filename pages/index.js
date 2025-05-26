@@ -37,7 +37,7 @@ export default function Home() {
         />
       </Head>
 
-      <main className="bg-gradient-to-b from-purple-100 via-white to-purple-200 text-purple-900 px-6 py-10 font-sans min-h-screen flex flex-col items-center mb-16 sm-12">
+      <main className="bg-gradient-to-b from-purple-100 via-white to-purple-200 text-purple-900 px-6 py-10 font-sans min-h-screen flex flex-col items-center mb-16 sm-16">
         <AnimatePresence>
           
           <motion.div
