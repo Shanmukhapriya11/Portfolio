@@ -348,7 +348,7 @@ export default function Home() {
 
     {/* View on GitHub Link */}
     <a 
-      href="https://github.com/yourusername/smartloanchain" 
+      href="https://github.com/Shanmukhapriya11/Trust-Evaluation-of-Credit-Score-Recommender" 
       target="_blank" 
       className="text-purple-700 underline text-sm font-semibold hover:text-purple-900 transition-colors"
     >
@@ -376,7 +376,7 @@ export default function Home() {
         <p className="text-purple-700 text-sm mb-2">
           <strong>Impact:</strong> Promotes biodiversity awareness and public participation in wildlife conservation.
         </p>
-        <a href="https://github.com/yourusername/wildlife-identification" target="_blank" className="text-purple-600 underline text-sm font-semibold hover:text-purple-900 transition-colors">
+        <a href="https://github.com/Shanmukhapriya11/WildLife-Identification-Platform" target="_blank" className="text-purple-600 underline text-sm font-semibold hover:text-purple-900 transition-colors">
           View on GitHub
         </a>
       </div>
@@ -396,7 +396,7 @@ export default function Home() {
         <p className="text-purple-700 text-sm mb-2">
           <strong>Impact:</strong> Improves healthcare access and reduces mortality in malaria-affected regions.
         </p>
-        <a href="https://github.com/yourusername/malaria-detection" target="_blank" className="text-purple-600 underline text-sm font-semibold hover:text-purple-900 transition-colors">
+        <a href="https://github.com/Shanmukhapriya11/Malaria-Parasite-Detection" target="_blank" className="text-purple-600 underline text-sm font-semibold hover:text-purple-900 transition-colors">
           View on GitHub
         </a>
       </div>
@@ -416,7 +416,7 @@ export default function Home() {
         <p className="text-purple-700 text-sm mb-2">
           <strong>Impact:</strong> Empowers students in remote areas with data-driven, multilingual career guidance.
         </p>
-        <a href="https://github.com/yourusername/ai-career-counseling" target="_blank" className="text-purple-600 underline text-sm font-semibold hover:text-yellow-900 transition-colors">
+        <a href="https://github.com/Shanmukhapriya11/AI-Career-Counselling-for-Secondary-Students" target="_blank" className="text-purple-600 underline text-sm font-semibold hover:text-yellow-900 transition-colors">
           View on GitHub
         </a>
       </div>
