@@ -32,12 +32,13 @@ export default function Home() {
         <title>P Shanmukhapriya Sravani – AI/ML Engineer Portfolio</title>
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <meta
-          name="description"
-          content="Portfolio of P Shanmukhapriya Sravani – AI/ML Engineer, NLP Enthusiast, and problem solver. Discover projects, skills, and more."
+          name="viewport"
+
+          content="width=device-width, initial-scale=1.0 , maximum-scale=1.0, user-scalable=no"
         />
       </Head>
 
-      <main className="bg-gradient-to-b from-purple-100 via-white to-purple-200 text-purple-900 px-6 py-10 font-sans min-h-screen flex flex-col items-center mb-16 sm:mb-16 w-full max-w-screen-xl mx-auto">
+      <main className="bg-gradient-to-b from-purple-100 via-white to-purple-200 text-purple-900 px-4 sm:px-6 py-10 font-sans min-h-screen flex flex-col items-center mb-16 sm:mb-16 w-full">
 
         <AnimatePresence>
           
@@ -92,7 +93,7 @@ export default function Home() {
               </motion.p>
             </header>
 
-            <section className="relative flex flex-col items-center text-center px-6 md:px-16 py-10 bg-purple-200 rounded-lg shadow-lg overflow-hidden">
+            <section className="relative flex flex-col items-center text-center px-6 md:w-full py-10 bg-purple-200 rounded-lg shadow-lg overflow-hidden">
               {/* Background Lottie with parallax effect */}
               <div
                 className="absolute inset-0 opacity-30 pointer-events-none"
@@ -344,7 +345,7 @@ export default function Home() {
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
     {/* Wildlife Identification & Tracking Platform */}
-    <div className="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg cursor-pointer bg-gradient-to-b from-purple-100 via-white to-purple-200 group p-6 text-center transition-all duration-300 hover:shadow-xl">
+    <div className="relative w-full h-64 rounded-2xl shadow-lg cursor-pointer bg-gradient-to-b from-purple-100 via-white to-purple-200 group p-6 text-center transition-all duration-300 hover:shadow-xl">
       <div className="z-10 transition-opacity duration-300 group-hover:opacity-0 flex flex-col items-center justify-center h-full">
         <h3 className="text-xl font-semibold mb-2 text-purple-800">Wildlife Identification & Tracking</h3>
         <p className="text-purple-700 font-medium text-sm">Hover for details</p>
@@ -364,7 +365,7 @@ export default function Home() {
     </div>
 
     {/* Automated Malaria Detection */}
-    <div className="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg cursor-pointer bg-gradient-to-b from-purple-100 via-white to-purple-200 group p-6 text-center transition-all duration-300 hover:shadow-xl">
+    <div className="relative w-full h-64 rounded-2xl shadow-lg cursor-pointer bg-gradient-to-b from-purple-100 via-white to-purple-200 group p-6 text-center transition-all duration-300 hover:shadow-xl">
       <div className="z-10 transition-opacity duration-300 group-hover:opacity-0 flex flex-col items-center justify-center h-full">
         <h3 className="text-xl font-semibold mb-2 text-purple-800">Automated Malaria Detection</h3>
         <p className="text-purple-700 font-medium text-sm">Hover for details</p>
@@ -384,7 +385,7 @@ export default function Home() {
     </div>
 
     {/* AI-Based Career Counseling System */}
-    <div className="relative w-full h-64 rounded-2xl overflow-hidden shadow-lg cursor-pointer bg-gradient-to-b from-purple-100 via-white to-purple-200 group p-6 text-center transition-all duration-300 hover:shadow-xl">
+    <div className="relative w-full h-64 rounded-2xl shadow-lg cursor-pointer bg-gradient-to-b from-purple-100 via-white to-purple-200 group p-6 text-center transition-all duration-300 hover:shadow-xl">
       <div className="z-10 transition-opacity duration-300 group-hover:opacity-0 flex flex-col items-center justify-center h-full">
         <h3 className="text-xl font-semibold mb-2 text-purple-800">AI-Based Career Counseling</h3>
         <p className="text-purple-700 font-medium text-sm">Hover for details</p>
@@ -405,14 +406,14 @@ export default function Home() {
 
   </div>
 </section>
-<section className="mt-10">
+<section className="mt-16">
   <h2 className="text-3xl font-bold text-purple-900 mb-6 flex items-center gap-2"><HiOutlineBadgeCheck className="w-8 h-8" />Certifications</h2>
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
 
     {/* COURSERA */}
     <div className="relative group
       bg-gradient-to-br from-amber-100 to-white hover:from-amber-200 p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300
-      overflow-hidden h-56 flex items-center justify-center text-center">
+     h-56 flex items-center justify-center text-center">
       <div className="transition-opacity duration-300 group-hover:opacity-0 leading-relaxed">
         <p className="text-amber-800 text-lg">
           <strong>COURSERA Project Network</strong><br />
@@ -434,7 +435,7 @@ export default function Home() {
     {/* INFOSYS SPRINGBOARD */}
     <div className="relative group
       bg-gradient-to-br from-rose-100 to-white hover:from-rose-200 p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300
-      overflow-hidden h-56 flex items-center justify-center text-center">
+     h-56 flex items-center justify-center text-center">
       <div className="transition-opacity duration-300 group-hover:opacity-0 leading-relaxed">
         <p className="text-rose-800 text-lg">
           <strong>INFOSYS SPRINGBOARD</strong><br />
@@ -463,7 +464,7 @@ export default function Home() {
     {/* GREAT LEARNING */}
     <div className="relative group
       bg-gradient-to-br from-green-100 to-white hover:from-green-200 p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300
-      overflow-hidden h-56 flex items-center justify-center text-center">
+      h-56 flex items-center justify-center text-center">
       <div className="transition-opacity duration-300 group-hover:opacity-0 leading-relaxed">
         <p className="text-lime-800 text-lg">
           <strong>GREAT LEARNING</strong><br />
@@ -496,7 +497,7 @@ export default function Home() {
     {/* IHUB Simplilearn */}
     <div className="relative group
       bg-gradient-to-br from-sky-100 to-white hover:from-sky-200 p-6 rounded-lg shadow-md hover:shadow-xl transition-all duration-300
-      overflow-hidden h-56 flex items-center justify-center text-center">
+       h-56 flex items-center justify-center text-center">
       <div className="transition-opacity duration-300 group-hover:opacity-0 leading-relaxed">
         <p className="text-lg text-sky-800">
           <strong>IHUB DivyaSampark by IIT Roorkee via Simplilearn</strong><br />
@@ -516,48 +517,48 @@ export default function Home() {
 
   </div>
 </section>
-<section className="mt-10">
+<section className="mt-16">
   <h2 className="text-3xl font-bold text-purple-900 mb-6 flex items-center gap-2"><FaLanguage className="w-8 h-8"/>Languages Known</h2>
 
   <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
     {/* English */}
     <div className="bg-gradient-to-br from-sky-100 to-white hover:from-sky-200 p-6 rounded-2xl shadow-md text-center transition-transform transform hover:-translate-y-1 hover:shadow-xl">
       <h3 className="text-2xl font-semibold text-sky-800 mb-2">English</h3>
-      <p className="text-gray-700 mb-3 text-[15px]">Professional</p>
+      <p className="text-gray-700 mb-3 text-sm">Professional</p>
       <div className="flex justify-center text-yellow-400 text-3xl">★★★★☆</div>
     </div>
 
     {/* Hindi */}
     <div className="bg-gradient-to-br from-rose-100 to-white hover:from-rose-200 p-6 rounded-2xl shadow-md text-center transition-transform transform hover:-translate-y-1 hover:shadow-xl">
       <h3 className="text-2xl font-semibold text-rose-800 mb-2">Hindi</h3>
-      <p className="text-gray-700 mb-3 text-[15px]">Professional</p>
+      <p className="text-gray-700 mb-3 text-sm">Professional</p>
       <div className="flex justify-center text-yellow-400 text-3xl">★★★★☆</div>
     </div>
 
     {/* Telugu */}
     <div className="bg-gradient-to-br from-amber-100 to-white hover:from-amber-200 p-6 rounded-2xl shadow-md text-center transition-transform transform hover:-translate-y-1 hover:shadow-xl">
       <h3 className="text-2xl font-semibold text-amber-800 mb-2">Telugu</h3>
-      <p className="text-gray-700 mb-3 text-[15px]">Native</p>
+      <p className="text-gray-700 mb-3 text-sm">Native</p>
       <div className="flex justify-center text-yellow-400 text-3xl">★★★★★</div>
     </div>
 
     {/* Korean */}
     <div className="bg-gradient-to-br from-violet-300 to-white hover:from-violet-400 p-6 rounded-2xl shadow-md text-center transition-transform transform hover:-translate-y-1 hover:shadow-xl">
       <h3 className="text-2xl font-semibold text-violet-900 mb-2">Korean</h3>
-      <p className="text-gray-700 mb-3 text-[15px]">Beginner</p>
+      <p className="text-gray-700 mb-3 text-sm">Beginner</p>
       <div className="flex justify-center text-yellow-400 text-3xl">★★☆☆☆</div>
     </div>
 
     {/* Mandarin */}
     <div className="bg-gradient-to-br from-green-100 to-white hover:from-green-200 p-6 rounded-2xl shadow-md text-center transition-transform transform hover:-translate-y-1 hover:shadow-xl">
       <h3 className="text-2xl font-semibold text-lime-800 mb-2">Mandarin</h3>
-      <p className="text-gray-700 mb-3 text-[15px]">Beginner</p>
+      <p className="text-gray-700 mb-3 text-sm">Beginner</p>
       <div className="flex justify-center text-yellow-400 text-3xl">★★☆☆☆</div>
     </div>
   </div>
 </section>
 
-<section className="mt-10">
+<section className="mt-16">
   <h2 className="text-3xl font-bold text-purple-900 mb-6 flex items-center gap-2"><FaTrophy className="w-8 h-8"/>Achievements & Extra Curricular</h2>
 
   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
