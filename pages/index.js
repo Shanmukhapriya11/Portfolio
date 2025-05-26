@@ -48,48 +48,49 @@ export default function Home() {
             transition={{ duration: 0.9, ease: "easeInOut" }}
             className="max-w-4xl w-full"
           >
-            <header className="text-center mb-12">
-              <motion.h1
-                className="text-5xl font-extrabold tracking-widest drop-shadow-lg"
-                initial={{ opacity: 0, y: 40, scale: 0.9 }}
-                animate={{ opacity: 1, y: 0, scale: 1 }}
-                transition={{ duration: 1.2, ease: "easeOut" }}
-              >
-                P SHANMUKHAPRIYA SRAVANI
-              </motion.h1>
+            <header className="text-center w-full px-4">
+  <motion.h1
+    className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-normal sm:tracking-wide break-words drop-shadow-lg"
+    initial={{ opacity: 0, y: 40, scale: 0.9 }}
+    animate={{ opacity: 1, y: 0, scale: 1 }}
+    transition={{ duration: 1.2, ease: "easeOut" }}
+  >
+    P SHANMUKHAPRIYA SRAVANI
+  </motion.h1>
 
-              <motion.p
-                className="mt-3 text-xl tracking-wide font-semibold text-purple-700"
-                initial={{ opacity: 0, y: 25 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1.1, delay: 0.6 }}
-              >
-                Hyderabad, India |{" "}
-                <a
-                  href="mailto:pshanmukhapriyasravani@gmail.com"
-                  className="underline hover:text-purple-700 transition"
-                >
-                  pshanmukhapriyasravani@gmail.com
-                </a>
-              </motion.p>
+  <motion.p
+    className="mt-3 text-base sm:text-lg md:text-xl tracking-wide font-semibold text-purple-700"
+    initial={{ opacity: 0, y: 25 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 1.1, delay: 0.6 }}
+  >
+    Hyderabad, India |{" "}
+    <a
+      href="mailto:pshanmukhapriyasravani@gmail.com"
+      className="underline hover:text-purple-700 transition"
+    >
+      pshanmukhapriyasravani@gmail.com
+    </a>
+  </motion.p>
 
-              <motion.p
-                className="mt-3 text-xl tracking-wide font-semibold text-purple-700"
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 1, delay: 1.2 }}
-              >
-                LinkedIn:{" "}
-                <a
-                  href="https://www.linkedin.com/in/pshanmukhapriyasravani"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-purple-700 underline hover:text-purple-700 transition "
-                >
-                  P Shanmukhapriya Sravani
-                </a>
-              </motion.p>
-            </header>
+  <motion.p
+    className="mt-3 text-base sm:text-lg md:text-xl tracking-wide font-semibold text-purple-700"
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    transition={{ duration: 1, delay: 1.2 }}
+  >
+    LinkedIn:{" "}
+    <a
+      href="https://www.linkedin.com/in/pshanmukhapriyasravani"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-purple-700 underline hover:text-purple-700 transition"
+    >
+      P Shanmukhapriya Sravani
+    </a>
+  </motion.p>
+</header>
+
 
             <section className="relative flex flex-col items-center text-center px-6 md:w-full py-10 bg-purple-200 rounded-lg shadow-lg overflow-hidden">
               {/* Background Lottie with parallax effect */}
