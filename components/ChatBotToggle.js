@@ -14,11 +14,16 @@ export default function ChatBotToggle() {
   transition={{ repeat: Infinity, duration: 2 }}
   onClick={() => setIsOpen(!isOpen)}
   aria-label="Toggle Chatbot"
-  className="fixed bottom-6 right-6 z-50 bg-purple-700 text-white rounded-full w-14 h-14 flex items-center justify-center shadow-lg hover:bg-purple-800 focus:outline-none
-    sm:w-12 sm:h-12 sm:text-sm"
+  className="fixed bottom-6 right-6 z-50 
+             bg-purple-700 text-white rounded-full 
+             w-14 h-14 flex items-center justify-center 
+             shadow-xl hover:bg-purple-800 
+             transition duration-300 ease-in-out
+             sm:w-12 sm:h-12 sm:text-sm"
 >
   💬
 </motion.button>
+
 
 
       {/* Chatbot Panel */}
@@ -35,10 +40,12 @@ export default function ChatBotToggle() {
     bg-gradient-to-b from-purple-100 via-white to-purple-200 
     rounded-3xl shadow-lg border border-purple-900 p-4 
     overflow-auto max-h-[70vh]
+    mx-4
   "
 >
   <ChatBot />
 </motion.div>
+
         )}
       </AnimatePresence>
     </>

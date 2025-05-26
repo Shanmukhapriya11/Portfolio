@@ -602,7 +602,10 @@ export default function Home() {
     </div>
   </div>
 </section>
-<ChatBotToggle />
+<div className="fixed bottom-6 right-4 sm:bottom-8 sm:right-8 z-50">
+  <ChatBotToggle />
+</div>
+
 <em><footer className="mt-16 text-center text-lg text-purple-900 border-t pt-4 flex flex-col sm:flex-row justify-center items-center gap-1 sm:gap-4">
   <span>&copy; {new Date().getFullYear()} P Shanmukhapriya Sravani. All rights reserved.</span>
   <span className="text-purple-900 text-lg">|</span>
