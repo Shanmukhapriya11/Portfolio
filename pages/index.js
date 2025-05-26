@@ -37,7 +37,7 @@ export default function Home() {
         />
       </Head>
 
-      <main className="bg-gradient-to-b from-purple-100 via-white to-purple-200 text-purple-900 px-6 py-10 font-sans min-h-screen flex flex-col items-center">
+      <main className="bg-gradient-to-b from-purple-100 via-white to-purple-200 text-purple-900 px-6 py-10 font-sans min-h-screen flex flex-col items-center mb-16 sm-12">
         <AnimatePresence>
           
           <motion.div
@@ -605,7 +605,7 @@ export default function Home() {
 <em><footer className="mt-16 text-center text-lg text-purple-900 border-t pt-4 flex flex-col sm:flex-row justify-center items-center gap-1 sm:gap-4">
   <span>&copy; {new Date().getFullYear()} P Shanmukhapriya Sravani. All rights reserved.</span>
   <span className="text-purple-900 text-lg">|</span>
-  <span className="text-purple-900 text-lg">v2.3.1</span>
+  <span className="text-purple-900 text-lg">v2.3.2</span>
 </footer></em>
 
 </motion.div>
