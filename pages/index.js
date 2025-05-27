@@ -127,15 +127,10 @@ export default function Home() {
                   AI/ML ENGINEER | CREATIVE NLP ENTHUSIAST | VISIONARY LEARNER
                 </h2>
                 <p className="mt-5 text-justify text-purple-900 font-semibold text-lg leading-relaxed tracking-wide">
-                  Passionate, visionary, and fiercely focused — I’m a Computer Science graduate with a strong
-                  foundation in AI/ML, driven by the desire to build ethical, real-world solutions. Whether it’s
-                  developing intelligent systems for education, healthcare, or the environment, I dive deep into
-                  problem-solving with intensity, empathy, and clarity.
+                  I’m a Computer Science graduate with a strong foundation in AI/ML, particularly in NLP, and a growing portfolio of real-world projects in education, healthcare, and sustainability. I approach problems with focus, deep commitment, and clear thinking—driven by a deep belief in building ethical and impactful solutions.
                 </p>
                 <p className="mt-3 text-justify text-purple-900 font-semibold text-lg leading-relaxed tracking-wide">
-                  I blend technical precision with storytelling, making my solutions functional and meaningful. As a
-                  fast learner and purpose-driven engineer, I’m actively seeking roles where I can grow with
-                  integrity, contribute with heart, and solve with impact.
+                  I blend technical precision with clear communication to craft intelligent systems that are both functional and meaningful. A fast learner and a purpose-driven engineer, I’m seeking roles where I can act with integrity, contribute effectively, and solve real-world challenges with insight and innovation.
                 </p>
 
                 {/* Skill icons with subtle hover magic */}
@@ -275,10 +270,10 @@ export default function Home() {
         description: "I continually explore new AI/ML techniques and apply them in real-world projects.",
       },
       {
-        title: "Process Improvement",
-        icon: <FaCogs className="text-purple-900 w-16 h-16 md:w-20 md:h-20" />,
-        gif: "/gifs/process-improvement.gif",
-        description: "I optimize workflows and systems to enhance efficiency and consistency.",
+        title: "Process Optimization & Development",
+icon: <FaCogs className="text-purple-900 w-16 h-16 md:w-20 md:h-20" />,
+gif: "/gifs/process-optimization.gif", // <-- you can rename or reuse either existing GIF
+description: "I design, develop, and optimize workflows to improve efficiency, consistency, and scalability across business and technical systems.",
       },
       {
         title: "Root Cause Analysis",
@@ -291,12 +286,6 @@ export default function Home() {
         icon: <FaTools className="text-purple-900 w-16 h-16 md:w-20 md:h-20" />,
         gif: "/gifs/Failure-Analysis.gif",
         description: "I analyze failures systematically to prevent future occurrences and improve resilience.",
-      },
-      {
-        title: "Process Development",
-        icon: <FaCogs className="text-purple-900 w-16 h-16 md:w-20 md:h-20" />,
-        gif: "/gifs/process-development.gif",
-        description: "I design and implement robust processes tailored to business and technical needs.",
       },
     ].map((skill, idx) => (
       <div
@@ -333,14 +322,14 @@ export default function Home() {
       AI/ML Project Intern — NIT Raipur
     </h3>
     <p className="text-violet-900 text-lg mb-1">
-      <strong>Duration:</strong> May 2024 – June 2024
+      <strong>Duration:</strong> May 2024 – June 2024 (45 days)
     </p>
     <p className="text-violet-900 mb-2">
       <strong>Project:</strong> <em>SmartLoanChain</em> — a deep learning-based credit score recommender system integrated with blockchain technology.
     </p>
 
     <ul className="list-disc list-inside text-violet-900 space-y-1 text-lg mb-4">
-      <li>Objective: Enhance transparency and efficiency in lending operations by eliminating reliance on traditional credit rating agencies.</li>
+      <li>Objective: Enhanced transparency and efficiency in lending operations by reducing reliance on traditional credit agencies.</li>
       <li>Designed and implemented a <strong>Transformer model</strong> to analyze financial data and predict credit scores.</li>
       <li>Achieved <strong>86.4% accuracy</strong> in credit score predictions after evaluation.</li>
       <li><strong>Technologies Used:</strong> Deep Learning, Blockchain, Python, Transformer Model.</li>
